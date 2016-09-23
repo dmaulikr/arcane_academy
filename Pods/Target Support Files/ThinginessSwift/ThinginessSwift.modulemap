@@ -1,0 +1,6 @@
+framework module ThinginessSwift {
+  umbrella header "ThinginessSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

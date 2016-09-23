@@ -1,0 +1,6 @@
+framework module ArcanaSwift {
+  umbrella header "ArcanaSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

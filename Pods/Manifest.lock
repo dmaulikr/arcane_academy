@@ -1,0 +1,30 @@
+PODS:
+  - ArcanaSwift (0.1.0):
+    - ThinginessSwift
+  - ThinginessSwift (0.1.0)
+
+DEPENDENCIES:
+  - ArcanaSwift (from `https://github.com/patrick-gleeson/arcana_swift.git`)
+  - ThinginessSwift (from `https://github.com/patrick-gleeson/thinginess_swift.git`)
+
+EXTERNAL SOURCES:
+  ArcanaSwift:
+    :git: https://github.com/patrick-gleeson/arcana_swift.git
+  ThinginessSwift:
+    :git: https://github.com/patrick-gleeson/thinginess_swift.git
+
+CHECKOUT OPTIONS:
+  ArcanaSwift:
+    :commit: 0b352f7366ea88a9111e4577f157eed923c01d8a
+    :git: https://github.com/patrick-gleeson/arcana_swift.git
+  ThinginessSwift:
+    :commit: b8f1a248f8cf1ac4b88d0f5b345e55cc86bbbd37
+    :git: https://github.com/patrick-gleeson/thinginess_swift.git
+
+SPEC CHECKSUMS:
+  ArcanaSwift: 36004bb2a36663f1dc823e62a9c4e87ba84d66c3
+  ThinginessSwift: faa98ea66f73357caa26595172f679569d5afb4d
+
+PODFILE CHECKSUM: 8a2271f21ae2ff965c5a29b551796a45d01e3c3e
+
+COCOAPODS: 1.0.1

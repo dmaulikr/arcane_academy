@@ -1,0 +1,6 @@
+framework module Pods_Arcane_AcademyTests {
+  umbrella header "Pods-Arcane AcademyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42905D2C841E17160414D03F /* Pods_Arcane_AcademyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA45366766B497DC38CD869E /* Pods_Arcane_AcademyUITests.framework */; };
+		7B47AFB3B4698F87BE9E56EB /* Pods_Arcane_AcademyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7631516C6908A8380CDC7A1A /* Pods_Arcane_AcademyTests.framework */; };
+		9510FDDB1D953C1200B62B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDDA1D953C1200B62B9C /* AppDelegate.swift */; };
+		9510FDDD1D953C1200B62B9C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9510FDDC1D953C1200B62B9C /* GameScene.sks */; };
+		9510FDDF1D953C1200B62B9C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDDE1D953C1200B62B9C /* GameScene.swift */; };
+		9510FDE11D953C1200B62B9C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDE01D953C1200B62B9C /* GameViewController.swift */; };
+		9510FDE41D953C1200B62B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510FDE21D953C1200B62B9C /* Main.storyboard */; };
+		9510FDE61D953C1200B62B9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9510FDE51D953C1200B62B9C /* Assets.xcassets */; };
+		9510FDE91D953C1200B62B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510FDE71D953C1200B62B9C /* LaunchScreen.storyboard */; };
+		9510FDF41D953C1200B62B9C /* Arcane_AcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDF31D953C1200B62B9C /* Arcane_AcademyTests.swift */; };
+		9510FDFF1D953C1200B62B9C /* Arcane_AcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDFE1D953C1200B62B9C /* Arcane_AcademyUITests.swift */; };
+		E72A4CD54CA998F31986DB1F /* Pods_Arcane_Academy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C790F8199250458AE129A374 /* Pods_Arcane_Academy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9510FDF01D953C1200B62B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9510FDCF1D953C1200B62B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9510FDD61D953C1200B62B9C;
+			remoteInfo = "Arcane Academy";
+		};
+		9510FDFB1D953C1200B62B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9510FDCF1D953C1200B62B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9510FDD61D953C1200B62B9C;
+			remoteInfo = "Arcane Academy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3890E6D4C325E1A7139E81A3 /* Pods-Arcane AcademyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane AcademyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane AcademyTests/Pods-Arcane AcademyTests.release.xcconfig"; sourceTree = "<group>"; };
+		7631516C6908A8380CDC7A1A /* Pods_Arcane_AcademyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcane_AcademyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBFDA50975C7A0FB67E04B2 /* Pods-Arcane Academy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane Academy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane Academy/Pods-Arcane Academy.release.xcconfig"; sourceTree = "<group>"; };
+		9510FDD71D953C1200B62B9C /* Arcane Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arcane Academy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510FDDA1D953C1200B62B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9510FDDC1D953C1200B62B9C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9510FDDE1D953C1200B62B9C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9510FDE01D953C1200B62B9C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9510FDE31D953C1200B62B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9510FDE51D953C1200B62B9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9510FDE81D953C1200B62B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9510FDEA1D953C1200B62B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9510FDEF1D953C1200B62B9C /* Arcane AcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arcane AcademyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510FDF31D953C1200B62B9C /* Arcane_AcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arcane_AcademyTests.swift; sourceTree = "<group>"; };
+		9510FDF51D953C1200B62B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9510FDFA1D953C1200B62B9C /* Arcane AcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arcane AcademyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510FDFE1D953C1200B62B9C /* Arcane_AcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arcane_AcademyUITests.swift; sourceTree = "<group>"; };
+		9510FE001D953C1200B62B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC19B9D6D215C989855F0C7 /* Pods-Arcane AcademyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane AcademyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane AcademyUITests/Pods-Arcane AcademyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C790F8199250458AE129A374 /* Pods_Arcane_Academy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcane_Academy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2A6C66832C71F1DDC8FEE9 /* Pods-Arcane AcademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane AcademyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane AcademyUITests/Pods-Arcane AcademyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D926F692280C5CF91D980C20 /* Pods-Arcane Academy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane Academy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane Academy/Pods-Arcane Academy.debug.xcconfig"; sourceTree = "<group>"; };
+		DA45366766B497DC38CD869E /* Pods_Arcane_AcademyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcane_AcademyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFF46F31ABD764AFE560A3C /* Pods-Arcane AcademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane AcademyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane AcademyTests/Pods-Arcane AcademyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9510FDD41D953C1200B62B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72A4CD54CA998F31986DB1F /* Pods_Arcane_Academy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510FDEC1D953C1200B62B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B47AFB3B4698F87BE9E56EB /* Pods_Arcane_AcademyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510FDF71D953C1200B62B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42905D2C841E17160414D03F /* Pods_Arcane_AcademyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275A7E7F1EB7E5F7633D993D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C790F8199250458AE129A374 /* Pods_Arcane_Academy.framework */,
+				7631516C6908A8380CDC7A1A /* Pods_Arcane_AcademyTests.framework */,
+				DA45366766B497DC38CD869E /* Pods_Arcane_AcademyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8348F634AE290E1327F40EF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D926F692280C5CF91D980C20 /* Pods-Arcane Academy.debug.xcconfig */,
+				8DBFDA50975C7A0FB67E04B2 /* Pods-Arcane Academy.release.xcconfig */,
+				FCFF46F31ABD764AFE560A3C /* Pods-Arcane AcademyTests.debug.xcconfig */,
+				3890E6D4C325E1A7139E81A3 /* Pods-Arcane AcademyTests.release.xcconfig */,
+				ADC19B9D6D215C989855F0C7 /* Pods-Arcane AcademyUITests.debug.xcconfig */,
+				CC2A6C66832C71F1DDC8FEE9 /* Pods-Arcane AcademyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9510FDCE1D953C1200B62B9C = {
+			isa = PBXGroup;
+			children = (
+				9510FDD91D953C1200B62B9C /* Arcane Academy */,
+				9510FDF21D953C1200B62B9C /* Arcane AcademyTests */,
+				9510FDFD1D953C1200B62B9C /* Arcane AcademyUITests */,
+				9510FDD81D953C1200B62B9C /* Products */,
+				8348F634AE290E1327F40EF1 /* Pods */,
+				275A7E7F1EB7E5F7633D993D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9510FDD81D953C1200B62B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9510FDD71D953C1200B62B9C /* Arcane Academy.app */,
+				9510FDEF1D953C1200B62B9C /* Arcane AcademyTests.xctest */,
+				9510FDFA1D953C1200B62B9C /* Arcane AcademyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9510FDD91D953C1200B62B9C /* Arcane Academy */ = {
+			isa = PBXGroup;
+			children = (
+				9510FDDA1D953C1200B62B9C /* AppDelegate.swift */,
+				9510FDDC1D953C1200B62B9C /* GameScene.sks */,
+				9510FDDE1D953C1200B62B9C /* GameScene.swift */,
+				9510FDE01D953C1200B62B9C /* GameViewController.swift */,
+				9510FDE21D953C1200B62B9C /* Main.storyboard */,
+				9510FDE51D953C1200B62B9C /* Assets.xcassets */,
+				9510FDE71D953C1200B62B9C /* LaunchScreen.storyboard */,
+				9510FDEA1D953C1200B62B9C /* Info.plist */,
+			);
+			path = "Arcane Academy";
+			sourceTree = "<group>";
+		};
+		9510FDF21D953C1200B62B9C /* Arcane AcademyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9510FDF31D953C1200B62B9C /* Arcane_AcademyTests.swift */,
+				9510FDF51D953C1200B62B9C /* Info.plist */,
+			);
+			path = "Arcane AcademyTests";
+			sourceTree = "<group>";
+		};
+		9510FDFD1D953C1200B62B9C /* Arcane AcademyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9510FDFE1D953C1200B62B9C /* Arcane_AcademyUITests.swift */,
+				9510FE001D953C1200B62B9C /* Info.plist */,
+			);
+			path = "Arcane AcademyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9510FDD61D953C1200B62B9C /* Arcane Academy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510FE031D953C1200B62B9C /* Build configuration list for PBXNativeTarget "Arcane Academy" */;
+			buildPhases = (
+				0219CC1B90017010F54E2BE1 /* [CP] Check Pods Manifest.lock */,
+				9510FDD31D953C1200B62B9C /* Sources */,
+				9510FDD41D953C1200B62B9C /* Frameworks */,
+				9510FDD51D953C1200B62B9C /* Resources */,
+				0C3506FC977B0BC8B3E338EF /* [CP] Embed Pods Frameworks */,
+				48D1147F3A94D7FFB795BD27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arcane Academy";
+			productName = "Arcane Academy";
+			productReference = 9510FDD71D953C1200B62B9C /* Arcane Academy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9510FDEE1D953C1200B62B9C /* Arcane AcademyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510FE061D953C1200B62B9C /* Build configuration list for PBXNativeTarget "Arcane AcademyTests" */;
+			buildPhases = (
+				F37A44A6BEBED7906A45076F /* [CP] Check Pods Manifest.lock */,
+				9510FDEB1D953C1200B62B9C /* Sources */,
+				9510FDEC1D953C1200B62B9C /* Frameworks */,
+				9510FDED1D953C1200B62B9C /* Resources */,
+				9843AB21B3EAD1443B842143 /* [CP] Embed Pods Frameworks */,
+				1C1BB95CC048F101B4B4A47B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9510FDF11D953C1200B62B9C /* PBXTargetDependency */,
+			);
+			name = "Arcane AcademyTests";
+			productName = "Arcane AcademyTests";
+			productReference = 9510FDEF1D953C1200B62B9C /* Arcane AcademyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9510FDF91D953C1200B62B9C /* Arcane AcademyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510FE091D953C1200B62B9C /* Build configuration list for PBXNativeTarget "Arcane AcademyUITests" */;
+			buildPhases = (
+				96B44156AD8E634849DBA320 /* [CP] Check Pods Manifest.lock */,
+				9510FDF61D953C1200B62B9C /* Sources */,
+				9510FDF71D953C1200B62B9C /* Frameworks */,
+				9510FDF81D953C1200B62B9C /* Resources */,
+				136B32012801E40C4F9974D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9510FDFC1D953C1200B62B9C /* PBXTargetDependency */,
+			);
+			name = "Arcane AcademyUITests";
+			productName = "Arcane AcademyUITests";
+			productReference = 9510FDFA1D953C1200B62B9C /* Arcane AcademyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9510FDCF1D953C1200B62B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Patrick Gleeson";
+				TargetAttributes = {
+					9510FDD61D953C1200B62B9C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9510FDEE1D953C1200B62B9C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9510FDD61D953C1200B62B9C;
+					};
+					9510FDF91D953C1200B62B9C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9510FDD61D953C1200B62B9C;
+					};
+				};
+			};
+			buildConfigurationList = 9510FDD21D953C1200B62B9C /* Build configuration list for PBXProject "Arcane Academy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9510FDCE1D953C1200B62B9C;
+			productRefGroup = 9510FDD81D953C1200B62B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9510FDD61D953C1200B62B9C /* Arcane Academy */,
+				9510FDEE1D953C1200B62B9C /* Arcane AcademyTests */,
+				9510FDF91D953C1200B62B9C /* Arcane AcademyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9510FDD51D953C1200B62B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510FDDD1D953C1200B62B9C /* GameScene.sks in Resources */,
+				9510FDE91D953C1200B62B9C /* LaunchScreen.storyboard in Resources */,
+				9510FDE61D953C1200B62B9C /* Assets.xcassets in Resources */,
+				9510FDE41D953C1200B62B9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510FDED1D953C1200B62B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510FDF81D953C1200B62B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0219CC1B90017010F54E2BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0C3506FC977B0BC8B3E338EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arcane Academy/Pods-Arcane Academy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		136B32012801E40C4F9974D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arcane AcademyUITests/Pods-Arcane AcademyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C1BB95CC048F101B4B4A47B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arcane AcademyTests/Pods-Arcane AcademyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D1147F3A94D7FFB795BD27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arcane Academy/Pods-Arcane Academy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B44156AD8E634849DBA320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9843AB21B3EAD1443B842143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arcane AcademyTests/Pods-Arcane AcademyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F37A44A6BEBED7906A45076F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9510FDD31D953C1200B62B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510FDDF1D953C1200B62B9C /* GameScene.swift in Sources */,
+				9510FDE11D953C1200B62B9C /* GameViewController.swift in Sources */,
+				9510FDDB1D953C1200B62B9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510FDEB1D953C1200B62B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510FDF41D953C1200B62B9C /* Arcane_AcademyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510FDF61D953C1200B62B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510FDFF1D953C1200B62B9C /* Arcane_AcademyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9510FDF11D953C1200B62B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9510FDD61D953C1200B62B9C /* Arcane Academy */;
+			targetProxy = 9510FDF01D953C1200B62B9C /* PBXContainerItemProxy */;
+		};
+		9510FDFC1D953C1200B62B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9510FDD61D953C1200B62B9C /* Arcane Academy */;
+			targetProxy = 9510FDFB1D953C1200B62B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9510FDE21D953C1200B62B9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9510FDE31D953C1200B62B9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9510FDE71D953C1200B62B9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9510FDE81D953C1200B62B9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9510FE011D953C1200B62B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9510FE021D953C1200B62B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9510FE041D953C1200B62B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D926F692280C5CF91D980C20 /* Pods-Arcane Academy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Arcane Academy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boffinism.Arcane-Academy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9510FE051D953C1200B62B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBFDA50975C7A0FB67E04B2 /* Pods-Arcane Academy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Arcane Academy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boffinism.Arcane-Academy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9510FE071D953C1200B62B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFF46F31ABD764AFE560A3C /* Pods-Arcane AcademyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Arcane AcademyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boffinism.Arcane-AcademyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcane Academy.app/Arcane Academy";
+			};
+			name = Debug;
+		};
+		9510FE081D953C1200B62B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3890E6D4C325E1A7139E81A3 /* Pods-Arcane AcademyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Arcane AcademyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boffinism.Arcane-AcademyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcane Academy.app/Arcane Academy";
+			};
+			name = Release;
+		};
+		9510FE0A1D953C1200B62B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC19B9D6D215C989855F0C7 /* Pods-Arcane AcademyUITests.debug.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Arcane AcademyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boffinism.Arcane-AcademyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Arcane Academy";
+			};
+			name = Debug;
+		};
+		9510FE0B1D953C1200B62B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2A6C66832C71F1DDC8FEE9 /* Pods-Arcane AcademyUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Arcane AcademyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boffinism.Arcane-AcademyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Arcane Academy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9510FDD21D953C1200B62B9C /* Build configuration list for PBXProject "Arcane Academy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510FE011D953C1200B62B9C /* Debug */,
+				9510FE021D953C1200B62B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510FE031D953C1200B62B9C /* Build configuration list for PBXNativeTarget "Arcane Academy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510FE041D953C1200B62B9C /* Debug */,
+				9510FE051D953C1200B62B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510FE061D953C1200B62B9C /* Build configuration list for PBXNativeTarget "Arcane AcademyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510FE071D953C1200B62B9C /* Debug */,
+				9510FE081D953C1200B62B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510FE091D953C1200B62B9C /* Build configuration list for PBXNativeTarget "Arcane AcademyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510FE0A1D953C1200B62B9C /* Debug */,
+				9510FE0B1D953C1200B62B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9510FDCF1D953C1200B62B9C /* Project object */;
+}

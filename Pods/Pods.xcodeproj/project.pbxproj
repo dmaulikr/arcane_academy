@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1060C9429681D9A42D48E85CB4B9CC44 /* Pods-Arcane AcademyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 800533274625210A45D81EEA0E891C80 /* Pods-Arcane AcademyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15084EC53785FA1797328D157064C423 /* ArcanaSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB732CF8CF839B658003C1A63B5C3242 /* ArcanaSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB7C13C1006FA4084EFE45A4C6775A6 /* ThinginessSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BD8AA545671B6123F2BF5B5E1C6D68 /* ThinginessSwift-dummy.m */; };
+		1FF6C760F0ACD5C92EC43A77DB799D52 /* ArcanaSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ECD31C02AAA05A11EE770E7264AE4B /* ArcanaSwift-dummy.m */; };
+		267CEC378DFE761596DEE810EBEFB4D4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03936CEC4BF750393E9B97AF15BCCA /* ReplaceMe.swift */; };
+		2BA1D8E872C542D7FF7523BC4BD72635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44659D0020464163E5C81B713364EB77 /* Foundation.framework */; };
+		3209C321E3CFB91E4C9069BDDD38F64A /* ThinginessSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6572A123716FB3046FC0123DBEEC3A8B /* ThinginessSwift.framework */; };
+		48B1B83795C30C3AF3CBAB631DA0AAEA /* Tome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13BF67C13B82983DA95C6B9F2DA7C1 /* Tome.swift */; };
+		4C39BEE5F3EC82DC6969775F31F59751 /* BaseThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A0EA3508FEECC7FC0A0BDD8FB1831A /* BaseThing.swift */; };
+		4F9D1AA2119F72E84B30BB07BB0375F2 /* Pods-Arcane AcademyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A344B58FDC10827ED50C4846762383 /* Pods-Arcane AcademyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54E5CE1A53532FA3C0B845B1D1276734 /* SemanticBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B773539D5268CF38F52240153FB4E0 /* SemanticBlock.swift */; };
+		5C2FB4D23E68D26E0941797DC24A38B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44659D0020464163E5C81B713364EB77 /* Foundation.framework */; };
+		6BC035CA26C8752B68263328AE5DD460 /* WordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B77A2C53F890040A07910D190BF90 /* WordData.swift */; };
+		7101C1C966DAC1FA7366FF8EDDC418CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44659D0020464163E5C81B713364EB77 /* Foundation.framework */; };
+		754421F0233EBB7866CF3767A3248800 /* Pods-Arcane AcademyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB94152A7F0C7986026A933F3999FC3 /* Pods-Arcane AcademyTests-dummy.m */; };
+		7F079FC41C6F41192942280C582B3623 /* BlockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556110566F6E7734497FCEF3FEA028EC /* BlockType.swift */; };
+		8F241F2511F0F7B3D07A083C9FC41C34 /* ThingSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2351EFC5F214C0D6D57899E5A771A /* ThingSet.swift */; };
+		979E3916B4A2D0AA0F7D4FD075EF6AD0 /* ThinginessSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FF8202C561CAE4A80C82A7BD9A9860 /* ThinginessSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DACB2B3936ADEA3166E45B10E3C0BE2 /* WordCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EA2AE1A1F3FB615DCC5A807229E08 /* WordCategory.swift */; };
+		9E931602DBD96F1D95E7DC0E7F4E39C8 /* ThingRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C582F8848753D9E2589B423F9EBA576C /* ThingRegistry.swift */; };
+		A0F2E3567B9DB2FF0DB12E0D75757ABA /* ThingSetGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D107B794965094780C805F20A12A8 /* ThingSetGenerator.swift */; };
+		BB8C978B1D83A407CF3BDEA0F23D09EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44659D0020464163E5C81B713364EB77 /* Foundation.framework */; };
+		BDEE6D48D5ACB08F91A66515A7935263 /* Pods-Arcane Academy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1DE2D0BEC5C07CE4D9CCDD94DD2B74 /* Pods-Arcane Academy-dummy.m */; };
+		C71466C8E4415A18854E67DD8AC9CEC2 /* Pods-Arcane AcademyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C268EB3E655A05F21FD5DC21050F2558 /* Pods-Arcane AcademyUITests-dummy.m */; };
+		C74E4D1A6836C51B89656B06E87EBB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44659D0020464163E5C81B713364EB77 /* Foundation.framework */; };
+		D99024C7D0E83498E1ADAF6B2DEB6C2B /* ArcaneError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4ACFAA52E050EDBE05D4B76A2732CA /* ArcaneError.swift */; };
+		DB6739119A6210FAE83F4489197468D8 /* Pods-Arcane Academy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB610E86968B6753E88371FA3DDC2760 /* Pods-Arcane Academy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF4DAD40F486ADFE16CDAA1FBDCFDF06 /* Demon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634AB43C7B3E8DC503EB68FE2730A4F1 /* Demon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27B3EEF0FAD9D1B5DBD6AA6E639BF3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A81D648FBAB8E4F5E833634DD4A4820;
+			remoteInfo = ThinginessSwift;
+		};
+		546267CEB2B8A445114448D09B765DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7102ABED526316CF9C737ECC41D3382D;
+			remoteInfo = ArcanaSwift;
+		};
+		CCD1AA6A84A1474654326CF455C18566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A81D648FBAB8E4F5E833634DD4A4820;
+			remoteInfo = ThinginessSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0436A16014FB0616788CC312AE514095 /* Pods-Arcane AcademyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arcane AcademyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08A40B42191023C035800FFF1E6ACA66 /* Pods_Arcane_Academy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcane_Academy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF14EDEBAD37F3E76A62107459E1CF6 /* Pods-Arcane AcademyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcane AcademyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F8FFAA15508038F6D8849C9AEF4F62B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124D39A1891F6CCF5AA46C5281949FC4 /* Pods-Arcane AcademyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcane AcademyTests-resources.sh"; sourceTree = "<group>"; };
+		20ECD31C02AAA05A11EE770E7264AE4B /* ArcanaSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ArcanaSwift-dummy.m"; sourceTree = "<group>"; };
+		283631E5DB487BD3DD7875B7AA93B646 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6EA2AE1A1F3FB615DCC5A807229E08 /* WordCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WordCategory.swift; path = ArcanaSwift/Classes/WordCategory.swift; sourceTree = "<group>"; };
+		2CC0A30E273545A56E9F27D05CF3BE3D /* ThinginessSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThinginessSwift.xcconfig; sourceTree = "<group>"; };
+		2F89BEFDEEF695033F2ABAC72E7BAB17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31854FAADB18323DD693B40825948B8D /* Pods-Arcane Academy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcane Academy.debug.xcconfig"; sourceTree = "<group>"; };
+		31DA410F6DCBC55F0204529742E85AC6 /* Pods-Arcane AcademyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcane AcademyTests.release.xcconfig"; sourceTree = "<group>"; };
+		39D8540E7E2ED72279DE8C3A6AAA8AF7 /* Pods-Arcane AcademyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcane AcademyTests-frameworks.sh"; sourceTree = "<group>"; };
+		3D25923410700E073BF681101B982F92 /* Pods_Arcane_AcademyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcane_AcademyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F42A720EA4D423820AA092E5B2C376E /* Pods-Arcane Academy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcane Academy-resources.sh"; sourceTree = "<group>"; };
+		44659D0020464163E5C81B713364EB77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		471C2BEB80AD164C952B95951BC9FDF2 /* Pods-Arcane Academy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcane Academy.release.xcconfig"; sourceTree = "<group>"; };
+		49638BA4BF92C8E3B44CA404AA5EB526 /* Pods-Arcane AcademyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcane AcademyUITests-resources.sh"; sourceTree = "<group>"; };
+		53A0EA3508FEECC7FC0A0BDD8FB1831A /* BaseThing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseThing.swift; path = ThinginessSwift/Classes/BaseThing.swift; sourceTree = "<group>"; };
+		556110566F6E7734497FCEF3FEA028EC /* BlockType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockType.swift; path = ArcanaSwift/Classes/BlockType.swift; sourceTree = "<group>"; };
+		596B3AE508E51C927B90D7726C2864E5 /* Pods-Arcane Academy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Arcane Academy.modulemap"; sourceTree = "<group>"; };
+		59705CB4F38CBD2C73044E08F3D98E8F /* Pods-Arcane AcademyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcane AcademyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5BFAD4A46015E98667AA18E7F8E3CDB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1281F7B08DD99684CDBB6452F5989D /* Pods-Arcane AcademyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arcane AcademyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D13BF67C13B82983DA95C6B9F2DA7C1 /* Tome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tome.swift; path = ArcanaSwift/Classes/Tome.swift; sourceTree = "<group>"; };
+		630AF768A42015C3357792A0B74F1A0B /* Pods-Arcane AcademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcane AcademyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		634AB43C7B3E8DC503EB68FE2730A4F1 /* Demon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Demon.swift; path = ArcanaSwift/Classes/Demon.swift; sourceTree = "<group>"; };
+		655B77A2C53F890040A07910D190BF90 /* WordData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WordData.swift; path = ArcanaSwift/Classes/WordData.swift; sourceTree = "<group>"; };
+		6572A123716FB3046FC0123DBEEC3A8B /* ThinginessSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThinginessSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D03936CEC4BF750393E9B97AF15BCCA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ArcanaSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6F0571F63D7143848911D1E86635FCDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC96888367C7AE04026C34EBA915EC1 /* Pods-Arcane AcademyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Arcane AcademyUITests.modulemap"; sourceTree = "<group>"; };
+		800533274625210A45D81EEA0E891C80 /* Pods-Arcane AcademyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arcane AcademyTests-umbrella.h"; sourceTree = "<group>"; };
+		81FF8202C561CAE4A80C82A7BD9A9860 /* ThinginessSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinginessSwift-umbrella.h"; sourceTree = "<group>"; };
+		82BA03D3F26154B43BC44561C0B698BB /* ThinginessSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinginessSwift-prefix.pch"; sourceTree = "<group>"; };
+		86A344B58FDC10827ED50C4846762383 /* Pods-Arcane AcademyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arcane AcademyUITests-umbrella.h"; sourceTree = "<group>"; };
+		86BAD9D277CBAA0651195F899E0C0C38 /* Pods-Arcane AcademyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arcane AcademyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EB94152A7F0C7986026A933F3999FC3 /* Pods-Arcane AcademyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arcane AcademyTests-dummy.m"; sourceTree = "<group>"; };
+		91FD9A0993DDB486CBB519F444F87272 /* ArcanaSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArcanaSwift-prefix.pch"; sourceTree = "<group>"; };
+		921D418C15C4541868EA5C1A3E5577E3 /* Pods-Arcane AcademyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arcane AcademyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0AFA1C2290E52DB02456C0E38BEE094 /* Pods_Arcane_AcademyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcane_AcademyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BD8AA545671B6123F2BF5B5E1C6D68 /* ThinginessSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThinginessSwift-dummy.m"; sourceTree = "<group>"; };
+		AFDF5D54B28EC0E0797B32FF9384D3CA /* Pods-Arcane Academy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arcane Academy-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF19E1EA9C3466408ABF0F8251CD8254 /* ThinginessSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ThinginessSwift.modulemap; sourceTree = "<group>"; };
+		C268EB3E655A05F21FD5DC21050F2558 /* Pods-Arcane AcademyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arcane AcademyUITests-dummy.m"; sourceTree = "<group>"; };
+		C582F8848753D9E2589B423F9EBA576C /* ThingRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThingRegistry.swift; path = ThinginessSwift/Classes/ThingRegistry.swift; sourceTree = "<group>"; };
+		C5DBBF3E4F0FA9C88B1C08AA1B78FB34 /* Pods-Arcane Academy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arcane Academy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF1DE2D0BEC5C07CE4D9CCDD94DD2B74 /* Pods-Arcane Academy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arcane Academy-dummy.m"; sourceTree = "<group>"; };
+		D88C534994ABC4096EC8FAD476B00188 /* ArcanaSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArcanaSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB732CF8CF839B658003C1A63B5C3242 /* ArcanaSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArcanaSwift-umbrella.h"; sourceTree = "<group>"; };
+		DE6419E7046C9EA4F558493FF9CA3FAB /* Pods-Arcane AcademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcane AcademyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9DCF5CAAC44DBB2B2080F42B1493E9 /* Pods-Arcane Academy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcane Academy-frameworks.sh"; sourceTree = "<group>"; };
+		E0B773539D5268CF38F52240153FB4E0 /* SemanticBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SemanticBlock.swift; path = ArcanaSwift/Classes/SemanticBlock.swift; sourceTree = "<group>"; };
+		EB610E86968B6753E88371FA3DDC2760 /* Pods-Arcane Academy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arcane Academy-umbrella.h"; sourceTree = "<group>"; };
+		EC4ACFAA52E050EDBE05D4B76A2732CA /* ArcaneError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArcaneError.swift; path = ArcanaSwift/Classes/ArcaneError.swift; sourceTree = "<group>"; };
+		EE46B0479B7D886771AAC9D99E42E482 /* ThinginessSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThinginessSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAD51F65858C42DC021F2FD9B61BCD7 /* Pods-Arcane AcademyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Arcane AcademyTests.modulemap"; sourceTree = "<group>"; };
+		F22AEEE3D748E8F31CB6DDD8C2863966 /* ArcanaSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ArcanaSwift.xcconfig; sourceTree = "<group>"; };
+		F356971A0C63CE6E21C69954473B8514 /* ArcanaSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ArcanaSwift.modulemap; sourceTree = "<group>"; };
+		FEF2351EFC5F214C0D6D57899E5A771A /* ThingSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThingSet.swift; path = ThinginessSwift/Classes/ThingSet.swift; sourceTree = "<group>"; };
+		FF6D107B794965094780C805F20A12A8 /* ThingSetGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThingSetGenerator.swift; path = ThinginessSwift/Classes/ThingSetGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43401F05D19589521565444D208997D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8C978B1D83A407CF3BDEA0F23D09EC /* Foundation.framework in Frameworks */,
+				3209C321E3CFB91E4C9069BDDD38F64A /* ThinginessSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0E0EF07AF8BC97877EE3CFB7CD19B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74E4D1A6836C51B89656B06E87EBB56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67FD903F12D9BC0034273F836707ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA1D8E872C542D7FF7523BC4BD72635 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B32F26C4205039B7F652575D0B8C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7101C1C966DAC1FA7366FF8EDDC418CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55A895B0CE349167AADBE7CBD814C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2FB4D23E68D26E0941797DC24A38B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032AAC905D81A613FE22DBFB62DB4854 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				44659D0020464163E5C81B713364EB77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2DED7A20978AA9AB9CAA91338C5AE676 /* ThinginessSwift */ = {
+			isa = PBXGroup;
+			children = (
+				53A0EA3508FEECC7FC0A0BDD8FB1831A /* BaseThing.swift */,
+				C582F8848753D9E2589B423F9EBA576C /* ThingRegistry.swift */,
+				FEF2351EFC5F214C0D6D57899E5A771A /* ThingSet.swift */,
+				FF6D107B794965094780C805F20A12A8 /* ThingSetGenerator.swift */,
+				F2BA28BD6FE09BC72DC4FD3D7A4B5FF6 /* Support Files */,
+			);
+			path = ThinginessSwift;
+			sourceTree = "<group>";
+		};
+		448EB7EAF9A91FC66184D06F213A8C1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F356971A0C63CE6E21C69954473B8514 /* ArcanaSwift.modulemap */,
+				F22AEEE3D748E8F31CB6DDD8C2863966 /* ArcanaSwift.xcconfig */,
+				20ECD31C02AAA05A11EE770E7264AE4B /* ArcanaSwift-dummy.m */,
+				91FD9A0993DDB486CBB519F444F87272 /* ArcanaSwift-prefix.pch */,
+				DB732CF8CF839B658003C1A63B5C3242 /* ArcanaSwift-umbrella.h */,
+				2F89BEFDEEF695033F2ABAC72E7BAB17 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ArcanaSwift";
+			sourceTree = "<group>";
+		};
+		6DC46FBA0C8744438E7604A127A3300A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52C976E55D787F947D16D0ABB5BB84D /* Pods-Arcane Academy */,
+				A9A3C5C50571049D575B8F6CF576A751 /* Pods-Arcane AcademyTests */,
+				C3FA36FC179E7242C7116020E17A8FFD /* Pods-Arcane AcademyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8AA83789C7FB041EFDA9F64CA49C7C90 /* Frameworks */,
+				A613E7D7502EAA7E94745BA8D1D86426 /* Pods */,
+				E3E0CF4744A8C0176DCD4595C492DF6A /* Products */,
+				6DC46FBA0C8744438E7604A127A3300A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AA83789C7FB041EFDA9F64CA49C7C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6572A123716FB3046FC0123DBEEC3A8B /* ThinginessSwift.framework */,
+				032AAC905D81A613FE22DBFB62DB4854 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F7FD2EFA9876343E99EE132718E10F2 /* ArcanaSwift */ = {
+			isa = PBXGroup;
+			children = (
+				EC4ACFAA52E050EDBE05D4B76A2732CA /* ArcaneError.swift */,
+				556110566F6E7734497FCEF3FEA028EC /* BlockType.swift */,
+				634AB43C7B3E8DC503EB68FE2730A4F1 /* Demon.swift */,
+				6D03936CEC4BF750393E9B97AF15BCCA /* ReplaceMe.swift */,
+				E0B773539D5268CF38F52240153FB4E0 /* SemanticBlock.swift */,
+				5D13BF67C13B82983DA95C6B9F2DA7C1 /* Tome.swift */,
+				2B6EA2AE1A1F3FB615DCC5A807229E08 /* WordCategory.swift */,
+				655B77A2C53F890040A07910D190BF90 /* WordData.swift */,
+				448EB7EAF9A91FC66184D06F213A8C1C /* Support Files */,
+			);
+			path = ArcanaSwift;
+			sourceTree = "<group>";
+		};
+		A613E7D7502EAA7E94745BA8D1D86426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7FD2EFA9876343E99EE132718E10F2 /* ArcanaSwift */,
+				2DED7A20978AA9AB9CAA91338C5AE676 /* ThinginessSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9A3C5C50571049D575B8F6CF576A751 /* Pods-Arcane AcademyTests */ = {
+			isa = PBXGroup;
+			children = (
+				283631E5DB487BD3DD7875B7AA93B646 /* Info.plist */,
+				EEAD51F65858C42DC021F2FD9B61BCD7 /* Pods-Arcane AcademyTests.modulemap */,
+				921D418C15C4541868EA5C1A3E5577E3 /* Pods-Arcane AcademyTests-acknowledgements.markdown */,
+				5D1281F7B08DD99684CDBB6452F5989D /* Pods-Arcane AcademyTests-acknowledgements.plist */,
+				8EB94152A7F0C7986026A933F3999FC3 /* Pods-Arcane AcademyTests-dummy.m */,
+				39D8540E7E2ED72279DE8C3A6AAA8AF7 /* Pods-Arcane AcademyTests-frameworks.sh */,
+				124D39A1891F6CCF5AA46C5281949FC4 /* Pods-Arcane AcademyTests-resources.sh */,
+				800533274625210A45D81EEA0E891C80 /* Pods-Arcane AcademyTests-umbrella.h */,
+				DE6419E7046C9EA4F558493FF9CA3FAB /* Pods-Arcane AcademyTests.debug.xcconfig */,
+				31DA410F6DCBC55F0204529742E85AC6 /* Pods-Arcane AcademyTests.release.xcconfig */,
+			);
+			name = "Pods-Arcane AcademyTests";
+			path = "Target Support Files/Pods-Arcane AcademyTests";
+			sourceTree = "<group>";
+		};
+		C3FA36FC179E7242C7116020E17A8FFD /* Pods-Arcane AcademyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0571F63D7143848911D1E86635FCDB /* Info.plist */,
+				7CC96888367C7AE04026C34EBA915EC1 /* Pods-Arcane AcademyUITests.modulemap */,
+				0436A16014FB0616788CC312AE514095 /* Pods-Arcane AcademyUITests-acknowledgements.markdown */,
+				86BAD9D277CBAA0651195F899E0C0C38 /* Pods-Arcane AcademyUITests-acknowledgements.plist */,
+				C268EB3E655A05F21FD5DC21050F2558 /* Pods-Arcane AcademyUITests-dummy.m */,
+				59705CB4F38CBD2C73044E08F3D98E8F /* Pods-Arcane AcademyUITests-frameworks.sh */,
+				49638BA4BF92C8E3B44CA404AA5EB526 /* Pods-Arcane AcademyUITests-resources.sh */,
+				86A344B58FDC10827ED50C4846762383 /* Pods-Arcane AcademyUITests-umbrella.h */,
+				0BF14EDEBAD37F3E76A62107459E1CF6 /* Pods-Arcane AcademyUITests.debug.xcconfig */,
+				630AF768A42015C3357792A0B74F1A0B /* Pods-Arcane AcademyUITests.release.xcconfig */,
+			);
+			name = "Pods-Arcane AcademyUITests";
+			path = "Target Support Files/Pods-Arcane AcademyUITests";
+			sourceTree = "<group>";
+		};
+		E3E0CF4744A8C0176DCD4595C492DF6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88C534994ABC4096EC8FAD476B00188 /* ArcanaSwift.framework */,
+				08A40B42191023C035800FFF1E6ACA66 /* Pods_Arcane_Academy.framework */,
+				A0AFA1C2290E52DB02456C0E38BEE094 /* Pods_Arcane_AcademyTests.framework */,
+				3D25923410700E073BF681101B982F92 /* Pods_Arcane_AcademyUITests.framework */,
+				EE46B0479B7D886771AAC9D99E42E482 /* ThinginessSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BA28BD6FE09BC72DC4FD3D7A4B5FF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BFAD4A46015E98667AA18E7F8E3CDB5 /* Info.plist */,
+				BF19E1EA9C3466408ABF0F8251CD8254 /* ThinginessSwift.modulemap */,
+				2CC0A30E273545A56E9F27D05CF3BE3D /* ThinginessSwift.xcconfig */,
+				A3BD8AA545671B6123F2BF5B5E1C6D68 /* ThinginessSwift-dummy.m */,
+				82BA03D3F26154B43BC44561C0B698BB /* ThinginessSwift-prefix.pch */,
+				81FF8202C561CAE4A80C82A7BD9A9860 /* ThinginessSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ThinginessSwift";
+			sourceTree = "<group>";
+		};
+		F52C976E55D787F947D16D0ABB5BB84D /* Pods-Arcane Academy */ = {
+			isa = PBXGroup;
+			children = (
+				0F8FFAA15508038F6D8849C9AEF4F62B /* Info.plist */,
+				596B3AE508E51C927B90D7726C2864E5 /* Pods-Arcane Academy.modulemap */,
+				C5DBBF3E4F0FA9C88B1C08AA1B78FB34 /* Pods-Arcane Academy-acknowledgements.markdown */,
+				AFDF5D54B28EC0E0797B32FF9384D3CA /* Pods-Arcane Academy-acknowledgements.plist */,
+				CF1DE2D0BEC5C07CE4D9CCDD94DD2B74 /* Pods-Arcane Academy-dummy.m */,
+				DE9DCF5CAAC44DBB2B2080F42B1493E9 /* Pods-Arcane Academy-frameworks.sh */,
+				3F42A720EA4D423820AA092E5B2C376E /* Pods-Arcane Academy-resources.sh */,
+				EB610E86968B6753E88371FA3DDC2760 /* Pods-Arcane Academy-umbrella.h */,
+				31854FAADB18323DD693B40825948B8D /* Pods-Arcane Academy.debug.xcconfig */,
+				471C2BEB80AD164C952B95951BC9FDF2 /* Pods-Arcane Academy.release.xcconfig */,
+			);
+			name = "Pods-Arcane Academy";
+			path = "Target Support Files/Pods-Arcane Academy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B76B2EFFF4730AE2D86142A47E8BB04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9D1AA2119F72E84B30BB07BB0375F2 /* Pods-Arcane AcademyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A68E78A545A8AFC28E7456B21D1FDA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1060C9429681D9A42D48E85CB4B9CC44 /* Pods-Arcane AcademyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69F58BAFB83F2774E75485E489F656E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15084EC53785FA1797328D157064C423 /* ArcanaSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F40552ECF411AA657675D19671B7C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979E3916B4A2D0AA0F7D4FD075EF6AD0 /* ThinginessSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2E67FC2B7605132ECCAAE79FBDD9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6739119A6210FAE83F4489197468D8 /* Pods-Arcane Academy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45B8598655C41767FA9A75CE73C18411 /* Pods-Arcane Academy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1F97A48D35598ADA70F821D68F85DB /* Build configuration list for PBXNativeTarget "Pods-Arcane Academy" */;
+			buildPhases = (
+				D76C3FE175C90F0E98C47D21173AB214 /* Sources */,
+				A67FD903F12D9BC0034273F836707ACE /* Frameworks */,
+				F0A2E67FC2B7605132ECCAAE79FBDD9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA70F916802F2B638D3B61073909F4D5 /* PBXTargetDependency */,
+				E8ABA29253AFCF4A1D31FD599CEC3FCC /* PBXTargetDependency */,
+			);
+			name = "Pods-Arcane Academy";
+			productName = "Pods-Arcane Academy";
+			productReference = 08A40B42191023C035800FFF1E6ACA66 /* Pods_Arcane_Academy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A81D648FBAB8E4F5E833634DD4A4820 /* ThinginessSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0D6899A170D7B08E76A6B949ED24F6 /* Build configuration list for PBXNativeTarget "ThinginessSwift" */;
+			buildPhases = (
+				43F6D943C6166DBBA5EA6084DEA9BB33 /* Sources */,
+				6D0E0EF07AF8BC97877EE3CFB7CD19B8 /* Frameworks */,
+				E7F40552ECF411AA657675D19671B7C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinginessSwift;
+			productName = ThinginessSwift;
+			productReference = EE46B0479B7D886771AAC9D99E42E482 /* ThinginessSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7102ABED526316CF9C737ECC41D3382D /* ArcanaSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F85E77FFB5A20A32F9443A71331A94 /* Build configuration list for PBXNativeTarget "ArcanaSwift" */;
+			buildPhases = (
+				97CEA53F79CD2632DF3F4AEA3A1145B5 /* Sources */,
+				43401F05D19589521565444D208997D5 /* Frameworks */,
+				C69F58BAFB83F2774E75485E489F656E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C03E48D2A595CC2D93985E3C183F85 /* PBXTargetDependency */,
+			);
+			name = ArcanaSwift;
+			productName = ArcanaSwift;
+			productReference = D88C534994ABC4096EC8FAD476B00188 /* ArcanaSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86D8886AC93618BE229964568E18C7AC /* Pods-Arcane AcademyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2B6843AF0995721FECD7E501DE8EBC /* Build configuration list for PBXNativeTarget "Pods-Arcane AcademyTests" */;
+			buildPhases = (
+				4CA100CCC4A5036989DAB1CA014D1EBA /* Sources */,
+				D55A895B0CE349167AADBE7CBD814C19 /* Frameworks */,
+				6A68E78A545A8AFC28E7456B21D1FDA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Arcane AcademyTests";
+			productName = "Pods-Arcane AcademyTests";
+			productReference = A0AFA1C2290E52DB02456C0E38BEE094 /* Pods_Arcane_AcademyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DBC2145B458A0E5536AC49E87F629AA /* Pods-Arcane AcademyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51126C4E789E47EEC9D4BF335F6C1974 /* Build configuration list for PBXNativeTarget "Pods-Arcane AcademyUITests" */;
+			buildPhases = (
+				033E502A12C055BD620D8962BAEEAF07 /* Sources */,
+				C4B32F26C4205039B7F652575D0B8C3D /* Frameworks */,
+				1B76B2EFFF4730AE2D86142A47E8BB04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Arcane AcademyUITests";
+			productName = "Pods-Arcane AcademyUITests";
+			productReference = 3D25923410700E073BF681101B982F92 /* Pods_Arcane_AcademyUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E3E0CF4744A8C0176DCD4595C492DF6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7102ABED526316CF9C737ECC41D3382D /* ArcanaSwift */,
+				45B8598655C41767FA9A75CE73C18411 /* Pods-Arcane Academy */,
+				86D8886AC93618BE229964568E18C7AC /* Pods-Arcane AcademyTests */,
+				9DBC2145B458A0E5536AC49E87F629AA /* Pods-Arcane AcademyUITests */,
+				4A81D648FBAB8E4F5E833634DD4A4820 /* ThinginessSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033E502A12C055BD620D8962BAEEAF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71466C8E4415A18854E67DD8AC9CEC2 /* Pods-Arcane AcademyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F6D943C6166DBBA5EA6084DEA9BB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C39BEE5F3EC82DC6969775F31F59751 /* BaseThing.swift in Sources */,
+				1EB7C13C1006FA4084EFE45A4C6775A6 /* ThinginessSwift-dummy.m in Sources */,
+				9E931602DBD96F1D95E7DC0E7F4E39C8 /* ThingRegistry.swift in Sources */,
+				8F241F2511F0F7B3D07A083C9FC41C34 /* ThingSet.swift in Sources */,
+				A0F2E3567B9DB2FF0DB12E0D75757ABA /* ThingSetGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA100CCC4A5036989DAB1CA014D1EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754421F0233EBB7866CF3767A3248800 /* Pods-Arcane AcademyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CEA53F79CD2632DF3F4AEA3A1145B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF6C760F0ACD5C92EC43A77DB799D52 /* ArcanaSwift-dummy.m in Sources */,
+				D99024C7D0E83498E1ADAF6B2DEB6C2B /* ArcaneError.swift in Sources */,
+				7F079FC41C6F41192942280C582B3623 /* BlockType.swift in Sources */,
+				DF4DAD40F486ADFE16CDAA1FBDCFDF06 /* Demon.swift in Sources */,
+				267CEC378DFE761596DEE810EBEFB4D4 /* ReplaceMe.swift in Sources */,
+				54E5CE1A53532FA3C0B845B1D1276734 /* SemanticBlock.swift in Sources */,
+				48B1B83795C30C3AF3CBAB631DA0AAEA /* Tome.swift in Sources */,
+				9DACB2B3936ADEA3166E45B10E3C0BE2 /* WordCategory.swift in Sources */,
+				6BC035CA26C8752B68263328AE5DD460 /* WordData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76C3FE175C90F0E98C47D21173AB214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE6D48D5ACB08F91A66515A7935263 /* Pods-Arcane Academy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA70F916802F2B638D3B61073909F4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ArcanaSwift;
+			target = 7102ABED526316CF9C737ECC41D3382D /* ArcanaSwift */;
+			targetProxy = 546267CEB2B8A445114448D09B765DAA /* PBXContainerItemProxy */;
+		};
+		E8ABA29253AFCF4A1D31FD599CEC3FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThinginessSwift;
+			target = 4A81D648FBAB8E4F5E833634DD4A4820 /* ThinginessSwift */;
+			targetProxy = CCD1AA6A84A1474654326CF455C18566 /* PBXContainerItemProxy */;
+		};
+		F4C03E48D2A595CC2D93985E3C183F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThinginessSwift;
+			target = 4A81D648FBAB8E4F5E833634DD4A4820 /* ThinginessSwift */;
+			targetProxy = 27B3EEF0FAD9D1B5DBD6AA6E639BF3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1CC526E91D2C95CDEBB7F83CA46D30F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC0A30E273545A56E9F27D05CF3BE3D /* ThinginessSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThinginessSwift/ThinginessSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThinginessSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThinginessSwift/ThinginessSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ThinginessSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6989A67454160C8D01EC9656A71C920D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6419E7046C9EA4F558493FF9CA3FAB /* Pods-Arcane AcademyTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcane AcademyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcane AcademyTests/Pods-Arcane AcademyTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcane_AcademyTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		887D0A5CBDDBE964CD78FC43F0A33A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF14EDEBAD37F3E76A62107459E1CF6 /* Pods-Arcane AcademyUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcane AcademyUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcane AcademyUITests/Pods-Arcane AcademyUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcane_AcademyUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89E0E630F7E9A728BEC9AE3CD3DD9D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22AEEE3D748E8F31CB6DDD8C2863966 /* ArcanaSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ArcanaSwift/ArcanaSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ArcanaSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ArcanaSwift/ArcanaSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ArcanaSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A3C29AEE74A3963FF9F3615A4320926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471C2BEB80AD164C952B95951BC9FDF2 /* Pods-Arcane Academy.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcane Academy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcane Academy/Pods-Arcane Academy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcane_Academy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB0A96C1ED8F32A5B383683FAC6E21E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22AEEE3D748E8F31CB6DDD8C2863966 /* ArcanaSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ArcanaSwift/ArcanaSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ArcanaSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ArcanaSwift/ArcanaSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ArcanaSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E46140715037B19A970BB031C8395145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DA410F6DCBC55F0204529742E85AC6 /* Pods-Arcane AcademyTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcane AcademyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcane AcademyTests/Pods-Arcane AcademyTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcane_AcademyTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E700C72253BC2BAFE9276B3ECD4E1A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630AF768A42015C3357792A0B74F1A0B /* Pods-Arcane AcademyUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcane AcademyUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcane AcademyUITests/Pods-Arcane AcademyUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcane_AcademyUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA82ABD3A96CD104EA6BC7F2F780D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC0A30E273545A56E9F27D05CF3BE3D /* ThinginessSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThinginessSwift/ThinginessSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThinginessSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThinginessSwift/ThinginessSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ThinginessSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6371A0EA3365FBD11CEFF42E8B7C39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31854FAADB18323DD693B40825948B8D /* Pods-Arcane Academy.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcane Academy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcane Academy/Pods-Arcane Academy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcane_Academy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19F85E77FFB5A20A32F9443A71331A94 /* Build configuration list for PBXNativeTarget "ArcanaSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0A96C1ED8F32A5B383683FAC6E21E7 /* Debug */,
+				89E0E630F7E9A728BEC9AE3CD3DD9D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51126C4E789E47EEC9D4BF335F6C1974 /* Build configuration list for PBXNativeTarget "Pods-Arcane AcademyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887D0A5CBDDBE964CD78FC43F0A33A56 /* Debug */,
+				E700C72253BC2BAFE9276B3ECD4E1A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2B6843AF0995721FECD7E501DE8EBC /* Build configuration list for PBXNativeTarget "Pods-Arcane AcademyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6989A67454160C8D01EC9656A71C920D /* Debug */,
+				E46140715037B19A970BB031C8395145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1F97A48D35598ADA70F821D68F85DB /* Build configuration list for PBXNativeTarget "Pods-Arcane Academy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6371A0EA3365FBD11CEFF42E8B7C39B /* Debug */,
+				9A3C29AEE74A3963FF9F3615A4320926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0D6899A170D7B08E76A6B949ED24F6 /* Build configuration list for PBXNativeTarget "ThinginessSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC526E91D2C95CDEBB7F83CA46D30F8 /* Debug */,
+				EA82ABD3A96CD104EA6BC7F2F780D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
