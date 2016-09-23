@@ -17,6 +17,13 @@
 		9510FDE91D953C1200B62B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510FDE71D953C1200B62B9C /* LaunchScreen.storyboard */; };
 		9510FDF41D953C1200B62B9C /* Arcane_AcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDF31D953C1200B62B9C /* Arcane_AcademyTests.swift */; };
 		9510FDFF1D953C1200B62B9C /* Arcane_AcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDFE1D953C1200B62B9C /* Arcane_AcademyUITests.swift */; };
+		956E67CE1D9569F300D0BB3A /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67CD1D9569F300D0BB3A /* Level.swift */; };
+		956E67D01D9574BD00D0BB3A /* ChosenWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67CF1D9574BD00D0BB3A /* ChosenWord.swift */; };
+		956E67D51D95755B00D0BB3A /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67D41D95755B00D0BB3A /* Level1.swift */; };
+		956E67D71D9575C700D0BB3A /* SpellableThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67D61D9575C700D0BB3A /* SpellableThing.swift */; };
+		956E67D91D95761200D0BB3A /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67D81D95761200D0BB3A /* Tree.swift */; };
+		956E67DB1D957A6900D0BB3A /* TreeLore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67DA1D957A6900D0BB3A /* TreeLore.swift */; };
+		956E67DD1D957F0B00D0BB3A /* LevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67DC1D957F0B00D0BB3A /* LevelController.swift */; };
 		E72A4CD54CA998F31986DB1F /* Pods_Arcane_Academy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C790F8199250458AE129A374 /* Pods_Arcane_Academy.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +62,13 @@
 		9510FDFA1D953C1200B62B9C /* Arcane AcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arcane AcademyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9510FDFE1D953C1200B62B9C /* Arcane_AcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arcane_AcademyUITests.swift; sourceTree = "<group>"; };
 		9510FE001D953C1200B62B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956E67CD1D9569F300D0BB3A /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		956E67CF1D9574BD00D0BB3A /* ChosenWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChosenWord.swift; sourceTree = "<group>"; };
+		956E67D41D95755B00D0BB3A /* Level1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
+		956E67D61D9575C700D0BB3A /* SpellableThing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellableThing.swift; sourceTree = "<group>"; };
+		956E67D81D95761200D0BB3A /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		956E67DA1D957A6900D0BB3A /* TreeLore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeLore.swift; sourceTree = "<group>"; };
+		956E67DC1D957F0B00D0BB3A /* LevelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelController.swift; sourceTree = "<group>"; };
 		ADC19B9D6D215C989855F0C7 /* Pods-Arcane AcademyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane AcademyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane AcademyUITests/Pods-Arcane AcademyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C790F8199250458AE129A374 /* Pods_Arcane_Academy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcane_Academy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2A6C66832C71F1DDC8FEE9 /* Pods-Arcane AcademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane AcademyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane AcademyUITests/Pods-Arcane AcademyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +153,7 @@
 		9510FDD91D953C1200B62B9C /* Arcane Academy */ = {
 			isa = PBXGroup;
 			children = (
+				956E67CC1D9569D500D0BB3A /* Game Logic */,
 				9510FDDA1D953C1200B62B9C /* AppDelegate.swift */,
 				9510FDDE1D953C1200B62B9C /* GameScene.swift */,
 				9510FDE01D953C1200B62B9C /* GameViewController.swift */,
@@ -166,6 +181,44 @@
 				9510FE001D953C1200B62B9C /* Info.plist */,
 			);
 			path = "Arcane AcademyUITests";
+			sourceTree = "<group>";
+		};
+		956E67CC1D9569D500D0BB3A /* Game Logic */ = {
+			isa = PBXGroup;
+			children = (
+				956E67D31D95754100D0BB3A /* Tomes */,
+				956E67D21D95753A00D0BB3A /* Things */,
+				956E67D11D95753500D0BB3A /* Levels */,
+				956E67CD1D9569F300D0BB3A /* Level.swift */,
+				956E67CF1D9574BD00D0BB3A /* ChosenWord.swift */,
+				956E67DC1D957F0B00D0BB3A /* LevelController.swift */,
+			);
+			name = "Game Logic";
+			sourceTree = "<group>";
+		};
+		956E67D11D95753500D0BB3A /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				956E67D41D95755B00D0BB3A /* Level1.swift */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		956E67D21D95753A00D0BB3A /* Things */ = {
+			isa = PBXGroup;
+			children = (
+				956E67D61D9575C700D0BB3A /* SpellableThing.swift */,
+				956E67D81D95761200D0BB3A /* Tree.swift */,
+			);
+			name = Things;
+			sourceTree = "<group>";
+		};
+		956E67D31D95754100D0BB3A /* Tomes */ = {
+			isa = PBXGroup;
+			children = (
+				956E67DA1D957A6900D0BB3A /* TreeLore.swift */,
+			);
+			name = Tomes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,9 +483,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956E67D51D95755B00D0BB3A /* Level1.swift in Sources */,
+				956E67D01D9574BD00D0BB3A /* ChosenWord.swift in Sources */,
 				9510FDDF1D953C1200B62B9C /* GameScene.swift in Sources */,
 				9510FDE11D953C1200B62B9C /* GameViewController.swift in Sources */,
 				9510FDDB1D953C1200B62B9C /* AppDelegate.swift in Sources */,
+				956E67D91D95761200D0BB3A /* Tree.swift in Sources */,
+				956E67DD1D957F0B00D0BB3A /* LevelController.swift in Sources */,
+				956E67DB1D957A6900D0BB3A /* TreeLore.swift in Sources */,
+				956E67D71D9575C700D0BB3A /* SpellableThing.swift in Sources */,
+				956E67CE1D9569F300D0BB3A /* Level.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

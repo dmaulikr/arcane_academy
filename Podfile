@@ -6,7 +6,7 @@ target 'Arcane Academy' do
   use_frameworks!
 
   pod 'ThinginessSwift', :git => 'https://github.com/patrick-gleeson/thinginess_swift.git'
-  pod ‘ArcanaSwift', :git => 'https://github.com/patrick-gleeson/arcana_swift.git'
+  pod 'ArcanaSwift', :git => 'https://github.com/patrick-gleeson/arcana_swift.git'
 
   target 'Arcane AcademyTests' do
     inherit! :search_paths

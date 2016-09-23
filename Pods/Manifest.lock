@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ArcanaSwift:
-    :commit: 0b352f7366ea88a9111e4577f157eed923c01d8a
+    :commit: 018420e401fc3779301739f720d855c668ec548b
     :git: https://github.com/patrick-gleeson/arcana_swift.git
   ThinginessSwift:
     :commit: b8f1a248f8cf1ac4b88d0f5b345e55cc86bbbd37
