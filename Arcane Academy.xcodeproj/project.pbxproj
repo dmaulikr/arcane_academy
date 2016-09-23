@@ -10,7 +10,6 @@
 		42905D2C841E17160414D03F /* Pods_Arcane_AcademyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA45366766B497DC38CD869E /* Pods_Arcane_AcademyUITests.framework */; };
 		7B47AFB3B4698F87BE9E56EB /* Pods_Arcane_AcademyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7631516C6908A8380CDC7A1A /* Pods_Arcane_AcademyTests.framework */; };
 		9510FDDB1D953C1200B62B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDDA1D953C1200B62B9C /* AppDelegate.swift */; };
-		9510FDDD1D953C1200B62B9C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9510FDDC1D953C1200B62B9C /* GameScene.sks */; };
 		9510FDDF1D953C1200B62B9C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDDE1D953C1200B62B9C /* GameScene.swift */; };
 		9510FDE11D953C1200B62B9C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510FDE01D953C1200B62B9C /* GameViewController.swift */; };
 		9510FDE41D953C1200B62B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510FDE21D953C1200B62B9C /* Main.storyboard */; };
@@ -44,7 +43,6 @@
 		8DBFDA50975C7A0FB67E04B2 /* Pods-Arcane Academy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcane Academy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arcane Academy/Pods-Arcane Academy.release.xcconfig"; sourceTree = "<group>"; };
 		9510FDD71D953C1200B62B9C /* Arcane Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arcane Academy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9510FDDA1D953C1200B62B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9510FDDC1D953C1200B62B9C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9510FDDE1D953C1200B62B9C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9510FDE01D953C1200B62B9C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9510FDE31D953C1200B62B9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				9510FDDA1D953C1200B62B9C /* AppDelegate.swift */,
-				9510FDDC1D953C1200B62B9C /* GameScene.sks */,
 				9510FDDE1D953C1200B62B9C /* GameScene.swift */,
 				9510FDE01D953C1200B62B9C /* GameViewController.swift */,
 				9510FDE21D953C1200B62B9C /* Main.storyboard */,
@@ -283,7 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9510FDDD1D953C1200B62B9C /* GameScene.sks in Resources */,
 				9510FDE91D953C1200B62B9C /* LaunchScreen.storyboard in Resources */,
 				9510FDE61D953C1200B62B9C /* Assets.xcassets in Resources */,
 				9510FDE41D953C1200B62B9C /* Main.storyboard in Resources */,
